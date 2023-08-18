@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Projects/NolCam/app/src/main/res/drawable-v24/border_item_choice.xml" value="0.169" />
+        <entry key="..\:/Android Projects/NolCam/app/src/main/res/drawable/border_choice_dialog_choice.xml" value="0.169" />
+        <entry key="..\:/Android Projects/NolCam/app/src/main/res/drawable/border_choice_dialog_non_choice.xml" value="0.169" />
+        <entry key="..\:/Android Projects/NolCam/app/src/main/res/layout/activity_app_detail.xml" value="0.296195652173913" />
+        <entry key="..\:/Android Projects/NolCam/app/src/main/res/layout/activity_camping_detail.xml" value="0.33" />
+        <entry key="..\:/Android Projects/NolCam/app/src/main/res/layout/activity_main.xml" value="0.296195652173913" />
+        <entry key="..\:/Android Projects/NolCam/app/src/main/res/layout/dialog_area_choice.xml" value="0.15572916666666667" />
+        <entry key="..\:/Android Projects/NolCam/app/src/main/res/layout/dialog_area_choice2.xml" value="0.15572916666666667" />
+        <entry key="..\:/Android Projects/NolCam/app/src/main/res/layout/dialog_category_choice.xml" value="0.2418478260869565" />
+        <entry key="..\:/Android Projects/NolCam/app/src/main/res/layout/dialog_filter.xml" value="0.2418478260869565" />
+        <entry key="..\:/Android Projects/NolCam/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Android Projects/NolCam/app/src/main/res/layout/item_area.xml" value="0.15572916666666667" />
+        <entry key="..\:/Android Projects/NolCam/app/src/main/res/layout/item_search_result1.xml" value="0.5" />
+        <entry key="..\:/Android Projects/NolCam/app/src/main/res/layout/item_search_result2.xml" value="0.296195652173913" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Embedded JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

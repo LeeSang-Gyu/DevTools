@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <LinearLayout
+        android:id="@+id/result_slide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#83CFE7"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:gravity="bottom">
+
+        <!-- 검색창-->
+        <LinearLayout
+            android:id="@+id/slide_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/search_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="#FFFFFF"
+                android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:layout_marginBottom="60dp"
+                android:background="#FFFFFF"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/map_search_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:hint="캠핑장 검색"
+                    android:textSize="10dp" />
+
+                <ImageView
+                    android:id="@+id/map_search_btn"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/icon_map_search" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <!--검색결과 화면-->
+        <LinearLayout
+            android:id="@+id/slide_search_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#7fb3d9"
+                android:orientation="vertical">
+                <!-- android:background="#C5E1DE"-->
+
+                <ImageView
+                    android:id="@+id/down"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="#FFFFFF"
+                    android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+
+
+                    <TextView
+                        android:id="@+id/slide_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:fontFamily="@font/scdream5"
+                        android:textStyle="bold"
+                        android:text="테스트 텍스트"
+                        android:textSize="20sp"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/detail_camping_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:layout_gravity="center"/>
+
+                <LinearLayout
+                    android:id="@+id/detail_camping_indicator"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:background="#40000000"
+                    android:gravity="center"
+                    android:padding="5dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_interpolator">
+    <!--
+    translate 중
+    fromYDelta : X의 시작 위치
+    toYDelta : X의 끝 위치
+    duration : 애니메이션 실행 시간 (1000 = 1s)
+
+    수치 바꿔서 돌려보니 100%는 기기 해상도 크기의 100%를 뜻하는거 같다.
+    그럼 시작 위치는 해상도 크기가 1280X720이라 하면 720에 시작해서 0까지 도달
+    -->
+    <translate
+        android:fromYDelta="100%"
+        android:toYDelta="0%"
+        android:duration="300"/>
+</set>
